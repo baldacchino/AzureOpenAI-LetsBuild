@@ -21,7 +21,7 @@ In this session we will start to build, we will leverage the Open AI Python SDK 
 
 ## Preparation 🧑🏼‍💻 
 
-> *This is only required for the hands-on lab. If you are only attending the presentation, you can skip this section.
+> *This is only required if you are building alongside me. If you are only attending the presentation, you can skip this section.
 
 During this session I will skim through content but explain examples in through the lens of possible MYOB uses cases.
 Considerable amount of time in the IDE (Visual Studio Code) and I would welcome you all to build along with me.  You don't need to but you can leverage this boiler plater code for your hackathon and beyond. 
