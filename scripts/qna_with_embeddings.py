@@ -26,7 +26,7 @@ COMPLETION_MODEL = 'text-davinci-003'
 encoding = tiktoken.get_encoding(EMBEDDING_ENCODING)
 
 # list all files in the samples directory
-samples_dir = os.path.join(os.getcwd(), "../../data/qna/")
+samples_dir = os.path.join(os.getcwd(), "../data/")
 sample_files = os.listdir(samples_dir)
 
 # read each file and remove and newlines (better for embeddings later)
