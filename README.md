@@ -46,48 +46,16 @@ In this technical workshop, you will get a comprehensive introduction to Azure O
 
 ### Azure OpenAI Service subscription and deployments
 
-Grant the participant access to the Azure OpenAI Service subscription and create the required deployments.
-
-Ideally, grant the participants access to Azure OpenAI Service service be assigning the `Cognitive Service OpenAI user`. If the participant is a `Cognitive Service OpenAI contributor`, they can create the following deployments themselves.
-
-Otherwise, create 'text-davinci-003' and 'text-embedding-ada-002' deployments (and assign the participant to the deployments).
-
-There are two ways to authenticate (see Jupyter notebooks):
-1. (Recommended) Use the Azure CLI to authenticate to Azure and Azure OpenAI Service
-2. Using a token (not needed if using the Azure CLI)
-
-Get the Azure OpenAI Service endpoint (and key) from the Azure portal.
-
-### Workspace environment
-
-Choose one of the following options to set up your environment: Codespaces, Devcontainer or bring your own environment (Anaconda). Building the environment can take a few minutes, so please start early.
-
-#### 1️⃣ Codespaces
-
-> 🌟 Highly recommended: *Best option if you already have a Github account. You can develop on local VSCode or in a browser window.*
-
-* Go to Github repository and click on `Code` button
-* Create and edit the `.env` file in the base folder including Azure OpenAI Service endpoint and key before starting any notebooks
-
-#### 2️⃣ Devcontainer
-
-> *Usually a good option if VSCode and Docker Desktop are already installed.*
-
-* Install [Docker](https://www.docker.com/products/docker-desktop)
-* Install [Visual Studio Code](https://code.visualstudio.com/)
-* Install [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
-* Clone this repository
-* Open the repository in Visual Studio Code
-* Click on the green button in the bottom left corner of the window
-* Select `Reopen in Container`
-* Wait for the container to be built and started
-* Create and edit `.env` file in the base folder including Azure OpenAI Service endpoint and key before starting any notebooks
-
-#### 3️⃣ Bring your own environment
-
-> *If you already have a Python environment with Jupyter Notebook and the Azure CLI installed.*
-
-Make sure you have the requirements installed in your Python environment using `pip install -r requirements.txt`.
+During this session I will skim through content but explain these examples in to possible MYOB uses cases.
+I will spend a considerable amount of time in the IDE (Visual Studio Code) and I would welcome you all to build along with me.  You don't need to but I want to set you with some basic boiler plate code for your event.
+Prior to joining this session you will need to following to play along with my demos (source code will be shared)
+✅ Python 3
+✅ Pip
+✅ The following modules installed (pip install azure-identity streamlit openai python-dotenv numpy pandas matplotlib plotly scipy scikit-learn tenacity tiktoken llama-index langchain faiss)
+✅ Azure Open AI EndPoint
+✅ Azure Open AI API-Key
+✅ Following models deployed (gpt-35-turbo | code-davinci-002 | text-davinci-003 | text-embedding-ada-002)
+✅ Recommendation you use WSL2 (Windows SubSystem For Linux) or a Linux based OS (this has not been tested under Windows)
 
 -------------------
 
