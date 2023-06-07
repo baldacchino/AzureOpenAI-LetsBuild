@@ -11,10 +11,10 @@ In this session we will start to build, we will leverage the Open AI Python SDK 
 * 🤔Q&A Bot : Semantic search on your custom data.
   * What approaches can you use to bring your own data in to OpenAI. This script will demonstrate how you can set loose and provide context to Azure Open AI using your own data
 * 🎥Classification and Sentiment Analysis : Embeddings, Keras, Clusters and LLM's
- * In this exampple we will leverage Keras to create a clusters from embeddings before providing sentiment analysis over our cluster data
- * Top 10K movies, reduced to a dataset of comedy and englishEmbedding all the keywords, taglines and titles
- * Sentiment analysis on the clusters using keras. 
- * Example given some keywords, provide supporting evidence. 
+  * In this exampple we will leverage Keras to create a clusters from embeddings before providing sentiment analysis over our cluster data
+  * Top 10K movies, reduced to a dataset of comedy and englishEmbedding all the keywords, taglines and titles
+  * Sentiment analysis on the clusters using keras. 
+  * Example given some keywords, provide supporting evidence. 
 
 
 -------------------
