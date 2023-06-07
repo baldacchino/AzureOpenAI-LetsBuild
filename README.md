@@ -28,6 +28,7 @@ In this technical workshop, you will get a comprehensive introduction to Azure O
 During this session I will skim through content but explain these examples in to possible MYOB uses cases.
 I will spend a considerable amount of time in the IDE (Visual Studio Code) and I would welcome you all to build along with me.  You don't need to but I want to set you with some basic boiler plate code for your event.
 Prior to joining this session you will need to following to play along with my demos (source code will be shared)
+
 ✅ Python 3
 ✅ Pip
 ✅ The following modules installed (pip install azure-identity streamlit openai python-dotenv numpy pandas matplotlib plotly scipy scikit-learn tenacity tiktoken llama-index langchain faiss)
