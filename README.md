@@ -41,6 +41,6 @@ Prior to joining this session you will need to following to play along with my d
 
 ## Solutions
 
-* :bulb: Script - [GPT3-5 Turbo Chat Bot](exercises/solutions/qna_with_embeddings_solution.ipynb)
-* :bulb: Script - [Q&A with embeddings](exercises/solutions/qna_with_embeddings_solution.ipynb)
-* :bulb: Script - [Unsupervised movie classification and recommendations](exercises/solutions/movie_classification_unsupervised_incl_recommendations_solution.ipynb)
+* :bulb: Script - [GPT3-5 Turbo Chat Bot](scripts/chatgpt_app.py)
+* :bulb: Script - [Q&A with embeddings](scripts/qna_with_embeddings.py)
+* :bulb: Script - [Unsupervised movie classification and recommendations](scripts/movie_classification)
