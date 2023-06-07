@@ -1,4 +1,4 @@
-# MYOB Open AI WorkShop - So you know the basics around Azure Open AI, but where to from here?
+# MYOB Open AI WorkShop - Lets Get Building🤖 So you know the basics around OpenAI but where to from here? 
 
 > In this session we will start to build, we will leverage the Open AI Python SDK to build some simple python based applications. These applications will cover multiple use cases. 
 1. Private Chat Bot : This will illustrate how using StreamLit with prompt chaining you cna build your own private LLM based chatbot
