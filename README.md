@@ -1,4 +1,4 @@
-# MYOB Open AI WorkShop - Lets Get Building🤖 So you know the basics around OpenAI but where to from here? 
+# MYOB Open AI WorkShop - Lets Get Building🤖 - So you know the basics around OpenAI but where to from here? 
 
 > In this session we will start to build, we will leverage the Open AI Python SDK to build some simple python based applications. These applications will cover multiple use cases. 
 1. Private Chat Bot : This will illustrate how using StreamLit with prompt chaining you cna build your own private LLM based chatbot
@@ -12,27 +12,6 @@ In this technical workshop, you will get a comprehensive introduction to Azure O
 
 ## Workshop agenda
 
-### 🌅 Morning (9:00 – 12:00)
-
-> *Fokus: Introduction and first steps*
-
-* 📣 Intro (90min)
-  * Into Workshop (15mins)
-  * Intro Azure OpenAI Service (30mins)
-  * Azure Azure OpenAI Studio (45mins)
-* 🧑🏼‍💻 Prompt Engineering Exercises using Studio (90mins)
-
-### 🌆 Afternoon (1:00 – 4:30)
-
-> *Focus: Solutions*
-
-* Recap (15min)
-* 📣 Using Azure OpenAI Service to access company data (60min)
-  * How to bring your own data
-  * Fine-tuning and embedding
-  * Solutions Accelerators
-* QnA session (30min)
-* 💻 Hands-on lab on two exemplay use-cases (90min)
 
 <sup>
 📣 Presentation, 🧑🏼‍💻 Hands-on lab
