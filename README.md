@@ -43,4 +43,4 @@ Prior to joining this session you will need to following to play along with my d
 
 * :bulb: Script - [GPT3-5 Turbo Chat Bot](scripts/chatgpt_app.py)
 * :bulb: Script - [Q&A with embeddings](scripts/qna_with_embeddings.py)
-* :bulb: Script - [Unsupervised movie classification and recommendations](scripts/movie_classification)
+* :bulb: Script - [Unsupervised movie classification and recommendations](scripts/movie_classification.py)
