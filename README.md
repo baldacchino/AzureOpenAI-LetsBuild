@@ -31,7 +31,7 @@ Prior to joining this session you will need to following to play along with my d
 * ✅ Python 3
 * ✅ Environment file with Azure Open AI credientals (.env file)
 * ✅ Pip
-* ✅ The following modules installed (pip3 install -r requirements.txt )
+* ✅ The following modules installed (pip3 install -r requirements.txt) - Found in the scripts folder
 * ✅ Azure Open AI EndPoint
 * ✅ Azure Open AI API-Key
 * ✅ Following models deployed (gpt-35-turbo | code-davinci-002 | text-davinci-003 | text-embedding-ada-002)
