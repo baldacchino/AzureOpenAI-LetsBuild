@@ -1,6 +1,6 @@
 azure-identity==1.6.0
 streamlit==1.18.1
-openai==0.27.1
+openai>=0.27.1
 python-dotenv==0.21.0
 numpy
 pandas
@@ -12,4 +12,4 @@ tenacity
 tiktoken==0.3.0
 llama-index==0.4.33
 langchain==0.0.129
-faiss==1.5.3
+faiss-cpu
