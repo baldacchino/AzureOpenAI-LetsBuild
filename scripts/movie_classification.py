@@ -29,20 +29,12 @@ EMBEDDING_MODEL = 'text-embedding-ada-002'
 COMPLETION_MODEL = 'text-davinci-003'
 encoding = tiktoken.get_encoding('cl100k_base')
 
-
-print("███    ███ ██    ██  ██████  ██████      ██   ██ ███████ ██      ██████  ███████ ██████      ██████   ██████  ████████ ")
-print("████  ████  ██  ██  ██    ██ ██   ██     ██   ██ ██      ██      ██   ██ ██      ██   ██     ██   ██ ██    ██    ██    ")
-print("██ ████ ██   ████   ██    ██ ██████      ███████ █████   ██      ██████  █████   ██████      ██████  ██    ██    ██    ")
-print("██  ██  ██    ██    ██    ██ ██   ██     ██   ██ ██      ██      ██      ██      ██   ██     ██   ██ ██    ██    ██    ")
-print("██      ██    ██     ██████  ██████      ██   ██ ███████ ███████ ██      ███████ ██   ██     ██████   ██████     ██    ")
-print("")
-print("sbaldacchino@microsoft.com")                           
-                                                                                                                                                       
+                                            
                                                                                                                   
 
 
 
-df = pd.read_csv('../../data/movies/movies2.csv')
+df = pd.read_csv('../data/movies/movies.csv')
 print(df.shape)
 
 df.head()
@@ -51,7 +43,7 @@ df.head()
 # add a new column to the dataframe where you put the token count of the review
 df = df.assign(token_count=df['overview'].apply(lambda x: len(encoding.encode(x))))
 
-# print the first 5 rows of the dataframe, then also the total number of tokens
+# print the first 5 rows of thnane dataframe, then also the total number of tokens
 total_tokens = df['token_count'].sum()
 
 cost_for_embeddings = total_tokens / 1000 * 0.0004
