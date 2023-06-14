@@ -1,4 +1,4 @@
-# MYOB Open AI WorkShop - Lets Get Building🤖 
+# Sesison 3-  Open AI WorkShop - Lets Get Building🤖 
 So you know the basics around OpenAI but where to from here? 🙄
 
 -------------------
